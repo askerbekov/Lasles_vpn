@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 header {
     padding: 50px 0;
@@ -24,8 +24,10 @@ header li {
 header a {
     text-decoration: none;
     color: #4F5665;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
-
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -38,8 +40,6 @@ header a {
     border: 0;
     color: #0B132A;
     background-color: transparent;
-    
-
 }
 .btn-wrapper button:nth-child(2)  {
 border-color: #F53855;
@@ -47,4 +47,142 @@ color: #F53855;
 border-radius: 50px;
 padding: 13px 45px;
 background-color: transparent;
+}
+.box {
+    height: 100%;
+}
+.content-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.content-bar  h2{
+    color: #0B132A;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+
+}
+.content-bar  p {
+    color: #4F5665;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.content-bar button {
+    padding: 17px 77px;
+    border-radius: 10px;
+    border: 0;
+    background: #F53838;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    line-height: 25px;   
+    box-shadow: 1px 38px 33px -22px rgba(245, 56, 56, 0.2);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin:  0 -15px;
+}
+
+
+
+
+.col-1 {
+    width: 10%;
+    padding: 15px;
+}
+.col-2 {
+    width: 16.66%;
+    padding: 15px;
+}.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+.col-5 {
+    width: 41.67%;
+    padding: 15px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.col-7 {
+    width: 58.33%;
+    padding: 15px;
+}
+.col-8 {
+    width: 66.66%;
+    padding: 15px;
+}
+.col-9 {
+    width: 75%;
+    padding: 15px;
+}
+.col-10 {
+    width: 83.34%;
+    padding: 15px;
+}
+.col-11 {
+    width: 90%;
+    padding: 15px;
+}
+.col-12 {
+    width: 100%;
+    padding: 15px;
 }
