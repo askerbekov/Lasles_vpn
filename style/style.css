@@ -1,5 +1,50 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+header {
+    padding: 50px 0;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    height: 37px;
+}
+header ul {
+    display: flex;
+    gap: 40px;
+}
+header li {
+   list-style: none ;
+}
+header a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.btn-wrapper {
+    display: flex;
+    gap: 30px;
+}
+.btn-wrapper button:not(:last-child) {
+    border: 0;
+    color: #0B132A;
+    background-color: transparent;
     
+
+}
+.btn-wrapper button:nth-child(2)  {
+border-color: #F53855;
+color: #F53855;
+border-radius: 50px;
+padding: 13px 45px;
+background-color: transparent;
 }
