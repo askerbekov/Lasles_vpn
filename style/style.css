@@ -247,9 +247,11 @@ width: 370px;
     box-shadow: 1px 38px 33px -22px rgba(245, 56, 56, 0);
 }
 
+/* ====================== Footer ===================== */
 
-
-
+footer {
+    background-color: #F8F8F8;
+}
 
 
 
@@ -284,16 +286,12 @@ width: 370px;
     flex-wrap: wrap;
     margin:  0 -15px;
 }
-
-
-
-
 .col-1 {
     width: 10%;
     padding: 15px;
 }
 .col-2 {
-    width: 20%;
+    width: 19%;
     padding: 15px;
 }.col-3 {
     width: 25%;
